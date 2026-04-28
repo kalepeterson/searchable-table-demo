@@ -1,10 +1,9 @@
 import { Component, computed, inject, linkedSignal, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { SearchableDisplay } from './searchable-display/searchable-display';
 import { UserPlaceholderService } from './services/user-placeholder';
-import { TableModel, TableStyleDefinition } from './searchable-display/table-model';
 import { UserData } from './models/user';
 import { USER_BASE_TABLE_MODEL_FULL, USER_BASE_TABLE_MODEL_PLAIN } from './models/user-table-model';
+import { SearchableDisplay, TableModel, TableStyleDefinition } from 'ngx-searchable-table';
 
 @Component({
   selector: 'app-root',

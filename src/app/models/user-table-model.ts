@@ -1,7 +1,7 @@
 import { InjectionToken } from "@angular/core";
-import { TableModel } from "../searchable-display/table-model";
 import { UserData } from "./user";
 import { USER_COLUMN_DEFINITIONS_OPTIONS, USER_COLUMN_DEFS_BASE, USER_COLUMN_DEFS_FULL } from "./user-column-defs";
+import { TableModel } from "ngx-searchable-table";
 
 export const USER_BASE_TABLE_MODEL_FULL = new InjectionToken<TableModel<UserData>>('USER_BASE_TABLE_MODEL_FULL', {
   providedIn: 'root',

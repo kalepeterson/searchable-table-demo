@@ -1,6 +1,6 @@
 import { signal } from '@angular/core';
-import { ColumnDefinition } from '../searchable-display/table-model';
 import { UserData } from './user';
+import { ColumnDefinition } from 'ngx-searchable-table';
 
 export const USER_COLUMN_DEFS_BASE: ColumnDefinition<UserData>[] = [
   {
